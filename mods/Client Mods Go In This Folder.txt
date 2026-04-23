@@ -1,0 +1,5 @@
+﻿Recommended GTNH Client Mods:
+Better Foliage (2.0.17)         - Bushier leaves with lots of other pretty visuals.
+Journey Map Unlimited (5.1.4p2) - Lets you see your friends (and mobs) on the mini map.
+Tabby Chat (1.11.2.2)           - Lets you organize/filter chat into tabs, configure audio notifications, hide annoucements/chat spam, etc.
+Zume (1.1.4)                    - Adds a zoom key, similar to Optifine's.
