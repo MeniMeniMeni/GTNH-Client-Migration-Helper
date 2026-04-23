@@ -1,5 +1,9 @@
 ﻿#### Start Config ####
 
+# .minecraft Folder Paths for GTNH installs.
+$OldGtnh = "C:\Users\admin\Prism Launcher\instances\GT_New_Horizons_2.8.0_Java_8\.minecraft"
+$NewGtnh = "C:\Users\admin\Prism Launcher\instances\GT_New_Horizons_2.8.4_Java_8\.minecraft"
+
 # Removes the main menu music files (to save your ears).
 $RemoveMenuMusic = $true
 $MenuMusicFolder = "config\txloader\load\minecraft\sounds\music\menu"
@@ -7,10 +11,6 @@ $MenuMusicFolder = "config\txloader\load\minecraft\sounds\music\menu"
 # Copies client mods into your new GTNH install.
 # These should be stored in a "mods" folder next to this script.
 $CopyClientMods = $true
-
-# .minecraft Folder Paths for GTNH installs.
-$OldGtnh = "C:\Users\admin\Prism Launcher\instances\GT_New_Horizons_2.8.0_Java_8\.minecraft"
-$NewGtnh = "C:\Users\admin\Prism Launcher\instances\GT_New_Horizons_2.8.4_Java_8\.minecraft"
 
 # Folders that you would like copied to your new install.
 $CopyFolders = $true
