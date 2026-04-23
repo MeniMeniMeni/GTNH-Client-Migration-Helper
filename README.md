@@ -43,10 +43,13 @@ It helps setup your new GTNH install and transfer important files/configs/data f
 
 
 ## Troubleshooting:
-If the script window opens and closes instantly, or you get an error saying scripts are disabled, this means your Windows is configured to block PowerShell scripts (a default and recommended Windows behavior) .
-To get around this, can temporarily enable them in just the current PowerShell session (recommended).
+If the script window opens and closes instantly, or you get an error saying scripts are disabled, this means your OS is configured to block PowerShell scripts (a default and recommended Windows behavior).
+
+To get around this, you can temporarily enable it in just the current PowerShell session.
+
 **Steps:**
-1. Run: `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and thoroughly read the warning. Again, never run scripts that you do not trust.
-2. Open PowerShell.
-3. Type `cd "path\to\current\script\folder"`
-4. Type `./A` and then tab complete to fill in the script name and press enter to run the script.
+1. Again, never run scripts that you do not trust.
+2. Run: `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` and thoroughly read the warning.
+3. Open PowerShell.
+4. Type `cd "path\to\current\script\folder"`
+5. Type `./A` and then press `tab` to auto-complete the script name and run it.
