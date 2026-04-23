@@ -37,8 +37,9 @@ It helps setup your new GTNH install and transfer important files/configs/data f
 ## Steps:
 1. Unzip files.
 2. Edit the PowerShell script to setup your config.
-3. As a reminder, never run scripts that you do not trust.
-4. Right click -> Run with PowerShell.
+3. Add your client mods to the "mods" folder. 
+4. As a reminder, never run scripts that you do not trust.
+5. Right click -> Run with PowerShell.
 
 
 ## Troubleshooting:
