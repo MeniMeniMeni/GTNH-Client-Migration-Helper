@@ -86,12 +86,12 @@ if ($RemoveMenuMusic) {
 # Copy client mods from our local ./mods folder to the new install.
 if ($CopyClientMods) {
     Write-Host "==== Adding client mods to your new install... ===="
-    $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
-    $modsSource = Join-Path $scriptDir "mods"
-    $modsDest   = Join-Path $NewGtnh "mods"
+    $scriptFolder = Split-Path -Parent $MyInvocation.MyCommand.Path
+    $modsFolderSource = Join-Path $scriptFolder "mods"
+    $modsFolderNew   = Join-Path $NewGtnh "mods"
 
-    if (Test-Path $modsSource) {
-        Copy-Item -Path (Join-Path $modsSource "*") -Destination $modsDest -Recurse -Force
+    if (Test-Path $modsFolderSource) {
+        Copy-Item -Path (Join-Path $modsFolderSource "*") -Destination $modsFolderNew -Recurse -Force
     } else {
         Write-Host "A mods folder was not found next to this script."
     }
